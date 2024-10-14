@@ -1,4 +1,4 @@
-## Minicurso de Framework MVC Laravel 
+# Minicurso de Framework MVC Laravel 
 
 Passo anterior: [configurações iniciais]()
 
