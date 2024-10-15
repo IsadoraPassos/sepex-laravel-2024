@@ -11,6 +11,11 @@ Global install:
 ```bash
 sudo mv composer.phar /usr/local/bin/composer
 ```
+
+Instalando as dependências do php:
+```bash
+sudo apt install php-xml
+```
 ## Instalar o Node
 
 ```bash
