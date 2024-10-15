@@ -1,6 +1,6 @@
 # Minicurso de Framework MVC Laravel 
 
-Passo anterior: [views]()
+Passo anterior: [views](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/views.md)
 
 ## Validação
 
@@ -162,4 +162,4 @@ Na view de criação de plantas (resources/views/plantas/create.blade.php), pode
 @enderror
 ```
 ## Próximo passo
-[css]()
+[css](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/css.md)
