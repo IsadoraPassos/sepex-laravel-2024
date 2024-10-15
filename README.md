@@ -8,6 +8,8 @@ recursos para bancos de dados relacionais e ferramentas de testes. Nesta oficina
 apresentaremos as principais facilidades do framework através de uma abordagem prática
 orientada a projeto.
 
+link para o projeto final: [catalogo de plantas](https://github.com/IsadoraPassos/catalogo-plantas)
+
 ## Configurações Necessárias Para rodar o Laravel 
 **Não é necessário para quem usar as maquinas virtuais**
 
@@ -77,4 +79,4 @@ Cursos gratuitos:
 - [Laravel - Jornada do Dev](https://jornadadodev.com.br/cursos/back-end/laravel)
 
 ## Próximo passo
-[MVC](https://github.com/IsadoraPassos/sepex-laravel-2024/edit/main/mvc.md)
+[MVC](https://github.com/IsadoraPassos/sepex-laravel-2024/main/mvc.md)
