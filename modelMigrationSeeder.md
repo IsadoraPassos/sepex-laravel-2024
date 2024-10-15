@@ -1,6 +1,6 @@
 # Minicurso de Framework MVC Laravel 
 
-Passo anterior: [mvc]()
+Passo anterior: [mvc](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/mvc.md)
 
 ## Model
 
@@ -197,4 +197,4 @@ php artisan db:seed
 Isso vai inserir as plantas no banco de dados. Você pode verificar os dados inseridos acessando a tabela plantas no sistema de gerenciamento de banco de dados.
 
 ## Próximo passo
-[crud]()
+[crud](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/crud.md)
