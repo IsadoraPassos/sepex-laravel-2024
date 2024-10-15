@@ -80,11 +80,12 @@ Agora que temos um layout base, podemos criar as views para listar e cadastrar p
                     <td>{{ $planta->nome_comum }}</td>
                     <td>{{ $planta->bioma }}</td>
                     <td>
+                        <a href="{{route('plantas.show', $planta->id)}}">Detalhes</a>
                         <a href="{{ route('plantas.edit', $planta->id) }}">Editar</a>
                         <form action="{{ route('plantas.destroy', $planta->id) }}" method="POST" style="display: inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit">Excluir</button>
+                            <button type="submit" id="button-delete">Excluir</button>
                         </form>
                     </td>
                 </tr>
