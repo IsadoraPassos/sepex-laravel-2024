@@ -1,4 +1,15 @@
 # Script para Configuração do Ambiente
+## Rodando o script no terminal
+1. Baixe o arquivo configurar_ambiente.sh
+2. Abra o terminal na mesma pasta que contém o arquivo
+3. Dê permissão de execução ao arquivo:
+```bash
+chmod +x configurar_ambiente.sh
+```
+4. Execute o script:
+```bash
+./configurar_ambiente.sh
+```
 
 ## Instalar o composer
 ```bash
