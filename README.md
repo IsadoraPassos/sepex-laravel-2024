@@ -77,4 +77,4 @@ Cursos gratuitos:
 - [Laravel - Jornada do Dev](https://jornadadodev.com.br/cursos/back-end/laravel)
 
 ## Próximo passo
-[MVC]()
+[MVC](https://github.com/IsadoraPassos/sepex-laravel-2024/edit/main/mvc.md)
