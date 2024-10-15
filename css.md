@@ -1,6 +1,6 @@
 # Minicurso de Framework MVC Laravel 
 
-Passo anterior: [validacao]() ou [views]() 
+Passo anterior: [validacao](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/validacao.md) ou [views](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/views.md) 
 
 ## Adicionando CSS à Aplicação
 
