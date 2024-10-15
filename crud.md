@@ -1,6 +1,6 @@
 # Minicurso de Framework MVC Laravel 
 
-Passo anterior: [modelMigrationSeeder]()
+Passo anterior: [modelMigrationSeeder](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/modelMigrationSeeder.md)
 
 ## Operações CRUD com Eloquent
 
@@ -147,4 +147,4 @@ Route::resource('plantas', PlantaController::class);
 O comando ``Route::resource`` cria automaticamente todas as rotas RESTful para as ações do controller, como **index**, **store**, **update**, **destroy**, etc.
 
 ## Próximo passo
-[views]()
+[views](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/views.md)
