@@ -34,7 +34,7 @@ O próximo passo é criar um controlador que vai manipular as requisições. Par
 
 1. No terminal, execute o seguinte comando para criar um controlador chamado `PlantaController`:
 ```bash
-php artisan make:controller PlantaController
+php artisan make:controller PlantaController --resource
 ```
 Esse comando cria um arquivo `PlantaController.php` dentro do diretório `app/Http/Controllers/`.
 
