@@ -1,6 +1,6 @@
 # Minicurso de Framework MVC Laravel 
 
-Passo anterior: [configurações iniciais]()
+Passo anterior: [configurações iniciais](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/README.md)
 
 
 ## O que é MVC?
@@ -141,4 +141,4 @@ Quando acessar a página, verá uma lista simples de plantas sendo exibida, most
 
 
 ## Próximo passo
-[Model, migration e seeder]()
+[Model, migration e seeder](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/modelMigrationSeeder.md)
