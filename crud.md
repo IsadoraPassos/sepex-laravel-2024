@@ -125,6 +125,7 @@ class PlantaController extends Controller
     public function update(Request $request, $id)
     {
         $planta = Planta::find($id);
+        $planta->update($request);
         return redirect()->route('plantas.index')->with('success', 'Planta atualizada com sucesso!');
     }
 
