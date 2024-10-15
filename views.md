@@ -1,6 +1,6 @@
 # Minicurso de Framework MVC Laravel 
 
-Passo anterior: [crud]()
+Passo anterior: [crud](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/crud.md)
 
 ## O que é Blade Templating?
 Blade é o sistema de templates do Laravel, que permite escrever HTML combinado com PHP de uma maneira clara e concisa. Com Blade, é possível criar layouts reutilizáveis, injetar dados nas views e criar componentes dinâmicos com facilidade.
@@ -228,4 +228,4 @@ Agora que temos um layout base, podemos criar as views para listar e cadastrar p
 ```
 
 ## Próximo passo
-[validação]()
+[validação](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/validacao.md) ou [css](https://github.com/IsadoraPassos/sepex-laravel-2024/blob/main/css.md)
