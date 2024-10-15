@@ -15,6 +15,8 @@ sudo mv composer.phar /usr/local/bin/composer
 Instalando as dependências do php:
 ```bash
 sudo apt install php-xml
+sudo apt-get install php-mbstring
+sudo service apache2 restart
 ```
 ## Instalar o Node
 
