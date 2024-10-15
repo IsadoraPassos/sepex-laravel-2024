@@ -21,28 +21,27 @@ npm run dev
 ### Editando o Arquivo CSS
 Abra o arquivo ``resources/css/app.css`` e adicione alguns estilos básicos. Por exemplo:
 ```css
+/* resources/css/app.css */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #28a745;
-    padding: 20px;
+    background-color: #4CAF50;
+    padding: 10px;
     color: white;
+    text-align: center;
 }
 
 nav a {
     color: white;
-    margin-right: 15px;
+    margin: 0 10px;
     text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 main {
@@ -56,20 +55,36 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #dee2e6;
+    border: 1px solid #ddd;
 }
 
 th, td {
-    padding: 12px;
+    padding: 8px;
     text-align: left;
 }
 
 th {
-    background-color: #e9ecef;
+    background-color: #f2f2f2;
+}
+
+.alert {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    background-color: #f44336;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
 }
 
 button {
-    background-color: #dc3545;
+    background-color: #45a049;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -77,32 +92,39 @@ button {
     border-radius: 4px;
 }
 
-button:hover {
-    background-color: #c82333;
+#button-delete {
+    background-color: #b8433b;
 }
 
-.alert {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+a {
+    padding: 3px;
+    color: #45a049;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.alert-success {
-    color: #155724;
-    background-color: #d4edda;
-    border-color: #c3e6cb;
-}
-
-.alert-danger {
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
-
-.error {
-    color: #dc3545;
-    font-size: 0.9em;
+footer {
+    padding: 20px;
 }
 ```
 ### Atualizando as Views para Utilizar os Estilos
