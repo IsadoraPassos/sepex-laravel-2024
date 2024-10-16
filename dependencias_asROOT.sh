@@ -21,7 +21,7 @@ sudo apt-get install php-mbstring -y
 
 
 #Habilitando UserDIR no apache
-a2enmod userdir
+sudo a2enmod userdir
 sudo sed -i 's/php_admin_flag engine Off/php_admin_flag engine On/' /etc/apache2/mods-available/php8.2.conf
 
 # Reiniciar o Apache
