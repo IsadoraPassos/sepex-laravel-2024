@@ -27,7 +27,7 @@ sudo sed -i 's/php_admin_flag engine Off/php_admin_flag engine On/' /etc/apache2
 # Reiniciar o Apache
 sudo service apache2 restart
 
-# Exportar o diretório NVM
+echo '# Exportar o diretório NVM' >> /home/aluno/.bashrc
 echo 'export NVM_DIR="$HOME/.config/nvm"' >> /home/aluno/.bashrc
-echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" ' >> >> /home/aluno/.bashrc
-exho '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> /home/aluno/.bashrc
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" ' >> /home/aluno/.bashrc
+echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> /home/aluno/.bashrc
